@@ -1,0 +1,21 @@
+git checkout master
+// sets the working tree of files to the version of each stored in the master branch
+
+git branch -D develop newfeature
+// force deletes the develop and newfeature branches of the git repo
+
+git push origin :develop :newfeature
+// pushes the the specified branches to the remote repo
+
+git tag -d V0.1
+// deletes the tag, a pointer to a specific commit (usually a release), V0.1, major version 0 minor version 1
+
+git push origin :V0.1
+// pushes the local version of the repo connected to the tag V0.1 over the remote version
+
+git reset --hard <last commit ID>
+// removes the specified commit and deletes the relevant snapshots of the files, setting the current commit to the one specified as <last commit ID>
+
+git push --force
+// pushes the entire working tree over the remote repo (all work in the remote is destroyed)
+
