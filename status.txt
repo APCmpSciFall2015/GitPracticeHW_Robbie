@@ -1,0 +1,18 @@
+* master:
+MyRepo.txt
+develop1.txt
+myinfo.txt
+
+* develop:
+MyRepo.txt
+develop1.txt
+develop2.txt
+develop3.txt
+myinfo.txt
+
+* newfeature
+MyRepo.txt
+develop1.txt
+develop2.txt
+myinfo.txt
+newfeature.txt
